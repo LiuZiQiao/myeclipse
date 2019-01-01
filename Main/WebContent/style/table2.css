@@ -1,0 +1,39 @@
+@charset "UTF-8";
+table
+    	{
+    		border-collapse:collapse;
+			text-align:center; }
+		th{height:50px;
+		border-left-style:hidden;
+		border-right-style:hidden;
+		border-top-style:hidden;}
+		td{
+			height:30px;}
+select
+      {
+        border: hidden;
+        -moz-appearance:none;}
+input
+      {
+        border: hidden;
+        outline: none;
+      }
+#row1{width:30px;}
+#row2{width:45px;}
+#row23{width:145px;}
+#row230{width:90px;}
+#row3{width:100px;}
+#row31{width:90px;}
+#row4{width:90px;}
+#row41{width:60px;}
+#row5{width:150px;}
+#row51{width:80px;}
+#row6{width:80px;}
+#row7{width:140px;}
+#row8{width:150px;}
+#row81{width:120px}
+#row78{width:300px}
+#warningphone{width: 22;height: 22;float: right;}
+#warningID{width: 22;height: 22;float: right;}
+
+     

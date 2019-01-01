@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+table
+    	{ border:1px;
+    		 
+    	}
+th{height:50px;
+		}
+input{
+			border:none;
+			outline:none;
+			
+		}
+textarea{
+			overflow-x: hidden;
+			overflow-y: hidden;
+			border: none;
+			height: 220px;
+			width:700px;
+		}
+select{
+			border:0;
+			-moz-appearance:none;
+		}
+#ID{
+			width:200px;
+		}
+#phone{
+			width:100px;
+		}
+#input_min{
+			width:70px;}
+#input_mid{
+			width:120px;}
+#input_max{
+			width:300px;}
+#col_td1{
+			width:60px}
+#col_td2{
+			width:135px;}
+#col_td3{
+			width:100px;}
+#row_td{
+			width:50px;}

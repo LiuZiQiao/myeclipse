@@ -7,12 +7,12 @@
   <display-name></display-name>
   <!-- 注册监听器 -->
   <listener>
-  	<listener-class>cn.itcast.listener.MyServletContextListener</listener-class>
+  	<listener-class>cn.lxk.listener.MyServletContextListener</listener-class>
   </listener>
   
   <servlet>
     <servlet-name>UserServlet</servlet-name>
-    <servlet-class>cn.itcast.action.UserServlet</servlet-class>
+    <servlet-class>cn.lxk.action.UserServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
