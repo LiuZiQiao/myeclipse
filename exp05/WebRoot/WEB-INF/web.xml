@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  
+  <servlet>
+    <servlet-name>ConfigDemoServlet</servlet-name>
+    <servlet-class>com.lxk.demo.ConfigDemoServlet</servlet-class>
+    <init-param>
+    	<param-name>email</param-name>
+    	<param-value>hacker@163.com</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>telephone</param-name>
+    	<param-value>8899123</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>CountServlet</servlet-name>
+    <servlet-class>com.lxk.demo.CountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.lxk.demo.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountServlet</servlet-name>
+    <servlet-class>com.lxk.demo.AccountServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ConfigDemoServlet</servlet-name>
+    <url-pattern>/ConfigDemoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CountServlet</servlet-name>
+    <url-pattern>/CountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountServlet</servlet-name>
+    <url-pattern>/AccountServlet</url-pattern>
+  </servlet-mapping>
+	
+</web-app>
