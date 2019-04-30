@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>BookQueryServlet</servlet-name>
+    <servlet-class>com.servlet.BookQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookInsertServlet</servlet-name>
+    <servlet-class>com.servlet.BookInsertServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>BookQueryServlet</servlet-name>
+    <url-pattern>/servlet/BookQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookInsertServlet</servlet-name>
+    <url-pattern>/servlet/BookInsertServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
